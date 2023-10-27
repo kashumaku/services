@@ -1,0 +1,76 @@
+.main {
+  height: 90vh;
+}
+.top {
+  height: 50%;
+  display: flex;
+  overflow-x: scroll;
+  position: relative;
+}
+::-webkit-scrollbar {
+  height: 0;
+}
+.service {
+  height: 100%;
+  color: white;
+  flex-shrink: 0;
+  gap: 10px;
+  width: 100vw;
+  background-position: top;
+  background-size: cover;
+}
+.topbtn:hover {
+  color: white;
+  background-color: orange;
+}
+
+.move {
+  position: absolute;
+  top: 50%;
+  color: rgb(86, 11, 184);
+  font-size: 23px;
+}
+.moveLeft {
+  left: 5px;
+  transform: rotate(90deg);
+  color: red;
+}
+.moveRight {
+  left: 50px;
+  transform: rotate(-90deg);
+}
+/* bottom */
+.bottom {
+  background-color: rgb(54, 51, 51);
+  height: fit-content;
+}
+
+.aboutDesc {
+  width: 40vw;
+}
+h2 {
+  color: orange;
+}
+.title,
+.aboutDesc {
+  color: white;
+}
+.cards {
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.mainbtn {
+  color: aliceblue;
+  margin-top: 50px;
+  height: 30px;
+  background-color: orange;
+  width: 130px;
+  border: none;
+  border-radius: 10px;
+}
+.mainbtn:hover {
+  color: orange;
+  background-color: aliceblue;
+  width: 130px;
+}

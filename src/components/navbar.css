@@ -1,0 +1,24 @@
+.nav {
+  color: aliceblue;
+  background-color: rgb(41, 40, 40);
+  height: 10vh;
+}
+.nav h1 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.nav h1 span {
+  color: orange;
+}
+.menu {
+  flex: 2;
+  margin: 0;
+  justify-content: space-around;
+  list-style: none;
+  color: rgb(211, 207, 207);
+}
+.menu .phone {
+  margin-left: 80px;
+  color: aliceblue;
+}

@@ -1,0 +1,16 @@
+.card {
+  background-color: rgb(83, 83, 83);
+  color: white;
+  width: 300px;
+  height: 95%;
+  margin-top: 20px;
+  border-radius: 10px;
+  padding: 10px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: aliceblue;
+  flex-shrink: 0;
+}

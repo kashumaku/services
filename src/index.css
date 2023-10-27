@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flexColumn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.flexAlignCenter {
+  display: flex;
+  align-items: center;
+}
+.btn {
+  width: 100px;
+  border-radius: 5px;
+  color: orange;
+  background-color: white;
+  font-size: 18px;
+  border: none;
+  padding: 5px;
+}
